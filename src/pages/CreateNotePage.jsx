@@ -15,7 +15,7 @@ const CreateNotePage = () => {
 
         toast.success("Note created successfully",{
           position: "bottom-center",
-          autoClose: 3000,
+          autoClose: 3001,
           theme:"colored"
         })
         navigate("/")
