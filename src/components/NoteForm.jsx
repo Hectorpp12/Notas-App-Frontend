@@ -27,8 +27,8 @@ const handleSubmit = (e) => {
     onChange={handleChange}
     required
     />
-    <textarea className="input lg-:input-lg resize-y w-full mb-8 textarea focus:outline-0 border-0" name="description" id="description" value={note.description} onChange={handleChange} placeholder="Descripción de la tarea" required></textarea>
-    <button className="btn btn-soft btn-primary" type="submit">Guardar</button>
+    <textarea className="input lg-:input-lg resize-y w-full mb-8 textarea focus:outline-0 border-0" name="description" id="description" value={note.description} onChange={handleChange} placeholder="Descripción de la publicación" required></textarea>
+    <button className="btn btn-soft btn-primary" type="submit">Publicar</button>
   </form> 
   )
 }
