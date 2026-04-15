@@ -47,7 +47,7 @@ const EditNotePage = () => {
 
   return (
     <div className="max-w-lg mx-auto mt-10 p-6 bg-base-300 rounded-xl shadow-lg">
-      <h1 className="text-2xl font-bold mb-4 text-accent">Editar Nota</h1>
+      <h1 className="text-2xl font-bold mb-4 text-accent">Editar publicación</h1>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
 
