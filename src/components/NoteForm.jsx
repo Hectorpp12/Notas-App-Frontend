@@ -20,7 +20,7 @@ const handleSubmit = (e) => {
     <input 
     className="block w-full mb-8 input lg:input-lg focus:outline-0 focus:ring-0 border-0"
     type="text" 
-    placeholder="Title" 
+    placeholder="Tu Nombre Completo" 
     id="title"
     name="title"
     value={note.title}
